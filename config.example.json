@@ -1,0 +1,25 @@
+{
+  "/first/request": {
+    "method": "POST",
+    "url": "https://remote.service.com/api/example",
+    "headers": {
+      "Content-Type": "application/json",
+      "Custom-Header": "CustomHeaderValue"
+    },
+    "body": {
+      "name": "example",
+      "value": 12345
+    }
+  },
+  "/other/endpoint": {
+    "method": "POST",
+    "url": "https://another.service.com/api/otherendpoint",
+    "headers": {
+      "Content-Type": "application/json",
+      "Authorization": "Bearer some_token"
+    },
+    "body": {
+      "key": "value"
+    }
+  }
+}
